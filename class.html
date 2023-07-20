@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class All</title>
+    <style>
+        body {
+            background-color: #9fe2fc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .boxClass {
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+            margin: 20px;
+            background-color: #ffffff;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .boxClass:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .cl {
+            color: #ff4d4d;
+            font-size: 50px;
+            line-height: 60px;
+            margin: 0;
+            padding-top: 20px;
+        }
+
+        .clp {
+            color: #66cc66;
+            font-size: 40px;
+            line-height: 50px;
+            margin: 0;
+        }
+
+        .start {
+            display: inline-block;
+            height: 50px;
+            width: 150px;
+            background-color: #3f723f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .start:hover {
+            background-color: #2b532b;
+        }
+
+        /* Additional Styles */
+
+        .boxClass:hover .cl {
+            color: #ff6666;
+        }
+
+        .boxClass:hover .clp {
+            color: #66cc66;
+        }
+
+        .start:active {
+            transform: translateY(2px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxClass">
+            <h5 class="cl">VI</h5>
+            <p class="clp">Six</p>
+            <a class="start" href="#">Start</a>
+        </div>
+
+        <div class="boxClass">
+            <h5 class="cl">VII</h5>
+            <p class="clp">Seven</p>
+            <a class="start" href="#">Start</a>
+        </div>
+
+        <div class="boxClass">
+            <h5 class="cl">VIII</h5>
+            <p class="clp">Eight</p>
+            <a class="start" href="#">Start</a>
+        </div>
+
+        <div class="boxClass">
+            <h5 class="cl">IX &amp; X</h5>
+            <p class="clp">Nine &amp; Ten</p>
+            <a class="start" href="bord.html">Start</a>
+        </div>
+
+        <div class="boxClass">
+            <h5 class="cl">XI</h5>
+            <p class="clp">Eleven</p>
+            <a class="start" href="#">Start</a>
+        </div>
+
+        <div class="boxClass">
+            <h5 class="cl">XII</h5>
+            <p class="clp">Twelve</p>
+            <a class="start" href="#">Start</a>
+        </div>
+    </div>
+</body>
+</html>

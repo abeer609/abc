@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="css/physics.css">
+
+</head>
+
+<body>
+  <div class="container" style="padding: 1em;">
+    <h1 style="text-align: center; margin-bottom: 1em;">Physics Tutorial </h1>
+    <ul style="display: flex; gap: 1em; justify-content: center;">
+        <li class="chapter" id="ch1">Chapter One</li>
+        <li class="chapter">Chapter Two</li>
+        <li class="chapter">Chapter Three</li>
+        <li class="chapter">Chapter Four</li>
+        <li class="chapter">Chapter Five</li>
+      </ul>
+      <div class="main-div">
+        <ul>
+            <li><a style="text-decoration: underline;" href="https://www.youtube.com/watch?v=V78a3Z6wa4g">স্লাইড ক্যালিপার্স এর ব্যবহার</a></li>
+            <li><a href="https://youtu.be/y-UaMaRtEFM"> পদার্থবিজ্ঞানের পরিসর, আদিপর্ব, উত্থানপর্ব ও আধুনিক পদার্থবিজ্ঞান</a></li>
+            <li><a href="https://youtu.be/jFi1eedh2gw">ভার্নিয়ার স্কেলের ব্যবহার</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<script>
+    const mainDiv = document.querySelector(".main-div");
+    const htmlBtn = document.getElementById("ch1");
+    htmlBtn.addEventListener('click', ()=>{
+        mainDiv.style.opacity = "1";
+
+    })
+</script>  
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@media screen and (max-width: 900px) {
+  nav {
+    font-size: 1rem;
+  }
+  .main-div {
+    width: 70%;
+  }
+
+  #submit-button,
+  .btn {
+    width: 18vw;
+  }
+
+  #question {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 18vw;
+  }
+
+  .select-lan label {
+    text-align: center;
+  }
+
+  .select-lan button {
+    width: 30vw;
+    display: block;
+    margin: 1em auto;
+    font-size: 1.3rem;
+  }
+
+  .time,
+  .resultTime {
+    width: 30%;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-div {
+    width: 90%;
+  }
+
+  #question {
+    font-size: 1.3rem;
+  }
+
+  #submit-button,
+  .btn {
+    width: 25vw;
+  }
+
+  .btn {
+    width: 25vw;
+  }
+
+  .time,
+  .resultTime {
+    width: 31%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav {
+    font-size: 0.8rem;
+  }
+
+  .select-lan button {
+    width: 35vw;
+    font-size: 1.1rem;
+  }
+
+  #question {
+    font-size: 1.2rem;
+  }
+
+  .main-div {
+    width: 97%;
+    padding: 1rem;
+  }
+
+  .show {
+    display: none;
+  }
+
+  #submit-button,
+  .btn {
+    width: 30vw;
+  }
+
+  .btn {
+    width: 35vw;
+  }
+}
